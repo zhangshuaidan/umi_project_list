@@ -1,14 +1,12 @@
 import React from 'react'
-
-
-class TableList extends React.Component{
-    render(){
-        return (
-            <div>
-                    这是列表
-            </div>
-        )
-    }
+const styles = require('./index.less');
+function List(){
+    return (
+        <div className={styles.root}>
+                <div className={styles.inner}>
+                    hi
+                </div>
+        </div>
+    )
 }
-
-export default TableList;
+export default List;
