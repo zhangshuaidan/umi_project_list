@@ -1,17 +1,8 @@
 import { IConfig } from 'umi-types';
-
+import pageRoutes from './router.config';
 // ref: https://umijs.org/config/
 const config: IConfig =  {
-  routes:[
-    { path: '/',
-    component: '../layouts/index',
-    routes:[
-      { path: '/', component: './index' },
-      { path: '/list', component: './list/index' },
-    ]
-   },
-   
-  ],
+  routes:pageRoutes,
   treeShaking: true,
   history: 'hash',
   plugins: [

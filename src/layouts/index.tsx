@@ -27,12 +27,11 @@ const BasicLayout: React.FC = props => {
         </Menu>
       </Header>
       <Content className={styles.wrapper}>
-        <Breadcrumb style={{ margin: '16px 0' }}>
+
+        <div style={{ margin: '16px 0' }}>
         <Breakcrumbs/>
-          {/* <Breadcrumb.Item>Home</Breadcrumb.Item>
-          <Breadcrumb.Item>List</Breadcrumb.Item>
-          <Breadcrumb.Item>App</Breadcrumb.Item> */}
-        </Breadcrumb>
+        
+        </div>
         <div className={styles.content}>
           <div className={styles.normal}>
              
